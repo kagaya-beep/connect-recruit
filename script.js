@@ -20,12 +20,28 @@ document.addEventListener('DOMContentLoaded', () => {
     revealObserver.observe(el);
   });
 
+
+  const diagram = document.querySelector('.support-diagram-main');
+  if (diagram) {
+    const diagramObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('diagram-inview');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.35 });
+
+    diagramObserver.observe(diagram);
+  }
+
   const jobsData = [
     {
       id: 1,
       title: '【新卒・中途】法人営業（OA通信機器・ネットワーク）',
       tags: ['新卒・第二新卒歓迎', '中途（既卒）OK', '正社員', '秋田市', '未経験歓迎', '土日祝休み'],
       summary: 'お客様の課題を聞き、通信・IT環境の改善を提案する仕事です。未経験から営業に挑戦したい方に向いています。',
+      impact: String.fromCharCode(0x4F01,0x696D,0x306E,0x4E0D,0x5B89,0x3092,0x3001,0x5B89,0x5FC3,0x306B,0x5909,0x3048,0x308B,0x3002),
       meta: [
         { label: '給与', value: '月給24万円から' },
         { label: '休日', value: '土日祝休み' },
@@ -75,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: '【新卒・中途】システムエンジニア（ネットワーク設定・ITサポート）',
       tags: ['新卒・第二新卒歓迎', '中途（既卒）OK', '正社員', '秋田市', '土日祝休み', '残業ほぼなし'],
       summary: 'ネットワーク機器やクラウドPBXの設定、導入後サポートを担当します。ITに興味がある方を育てるポジションです。',
+      impact: String.fromCharCode(0x898B,0x3048,0x306A,0x3044,0x901A,0x4FE1,0x3092,0x3001,0x983C,0x308C,0x308B,0x6280,0x8853,0x306B,0x3002),
       meta: [
         { label: '給与', value: '月給23万円から' },
         { label: '休日', value: '土日祝休み' },
@@ -128,6 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: '【中途採用】技術職（通信インフラ工事・保守）',
       tags: ['中途採用（既卒）', '正社員', '秋田市', '月給23万円から', '経験者優遇', '土日祝休み'],
       summary: 'ビジネスフォン、Wi-Fi、防犯カメラなどの設置・配線・保守を担当します。経験や資格を評価します。',
+      impact: String.fromCharCode(0x79CB,0x7530,0x306E,0x73FE,0x5834,0x3092,0x3001,0x6280,0x8853,0x3067,0x652F,0x3048,0x308B,0x3002),
       meta: [
         { label: '給与', value: '月給23万円から' },
         { label: '休日', value: '土日祝休み' },
@@ -254,6 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="job-title-sec">
             <div class="job-kicker">POSITION ${String(job.id).padStart(2, '0')}</div>
             <h3>${job.title}</h3>
+            <p class="job-impact-label">${job.impact}</p>
             <p class="job-summary">${job.summary}</p>
             <div class="job-tags">
               ${tagsHtml}
@@ -294,6 +313,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!isActive) {
           jobItem.classList.add('active');
+          requestAnimationFrame(() => {
+            const navHeight = document.querySelector('.navbar')?.offsetHeight || 0;
+            const targetTop = jobItem.getBoundingClientRect().top + window.pageYOffset - navHeight - 18;
+            window.scrollTo({
+              top: Math.max(targetTop, 0),
+              behavior: 'smooth'
+            });
+          });
         }
       });
 
