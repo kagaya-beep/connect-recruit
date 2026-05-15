@@ -39,11 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 1,
       title: '【新卒・中途】法人営業（OA通信機器・ネットワーク）',
-      tags: ['新卒・第二新卒歓迎', '中途（既卒）OK', '正社員', '秋田市', '未経験歓迎', '土日祝休み'],
+      tags: ['新卒・第二新卒歓迎', '中途OK', '正社員', '秋田市', '未経験歓迎', '土日祝休み'],
       summary: 'お客様の課題を聞き、通信・IT環境の改善を提案する仕事です。未経験から営業に挑戦したい方に向いています。',
       impact: String.fromCharCode(0x4F01,0x696D,0x306E,0x4E0D,0x5B89,0x3092,0x3001,0x5B89,0x5FC3,0x306B,0x5909,0x3048,0x308B,0x3002),
       meta: [
-        { label: '給与', value: '月給24万円から' },
+        { label: String.fromCharCode(0x7D66,0x4E0E), value: String.fromCharCode(0x5B66,0x6B74,0x5225,0x306B,0x8A2D,0x5B9A) },
         { label: '休日', value: '土日祝休み' },
         { label: '勤務地', value: '秋田市・転勤なし' },
         { label: '対象', value: '未経験歓迎' }
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <strong style="color: #0d47a1;">この仕事のポイント</strong><br>
           <ul style="list-style-type: none; padding-left: 0; margin-top: 10px;">
             <li style="margin-bottom: 8px;"><strong>未経験からプロへ</strong> 業界経験ゼロでも安心。研修体制があり、先輩が一から丁寧に教えます。</li>
-            <li style="margin-bottom: 8px;"><strong>提案しやすい商材</strong> 約2,000社の導入実績と、社会貢献型サービス「コネクト光」という独自の強みがあります。</li>
+            <li style="margin-bottom: 8px;"><strong>提案しやすい商材</strong> 約2,000社の導入実績と、社会貢献型サービス「<span class="no-break">コネクト光</span>」という独自の強みがあります。</li>
             <li style="margin-bottom: 8px;"><strong>働きやすい環境</strong> 完全週休2日制で、プライベートも大切にできます。</li>
             <li><strong>頑張りを正当に評価</strong> 実績に応じた報奨金があり、成果が給与に反映されます。</li>
           </ul>
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         「社会貢献型」という強みで地域に貢献しながら、お客様に喜ばれるやりがいのある仕事です。
       `,
       requirements: [
-        '新卒（来春卒業予定）・第二新卒・既卒の方を歓迎',
+        '新卒（来春卒業予定）・第二新卒・中途の方を歓迎',
         '35歳まで（長期キャリア形成のため）',
         '普通自動車運転免許（AT限定可）をお持ちの方',
         '学歴・職歴・スキル不問。未経験歓迎',
@@ -80,7 +80,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'チームの一員として周囲と協力できる方'
       ],
       details: [
-        '【給与】月給24万円から（固定残業代5時間分含む）＋実績により報奨金（月3万円から15万円）',
+        '【給与】\u5927\u5352\u30fb\u4e2d\u9014\uff1a\u6708\u7d66240,000\u5186\u304b\u3089（固定残業代5時間分含む）＋実績により報奨金（月3万円から15万円）',
+        '<strong>&#x3010;&#x5B66;&#x6B74;&#x5225;&#x521D;&#x4EFB;&#x7D66;&#x3011;</strong>&#x9AD8;&#x5352;&#xFF1A;&#x6708;&#x7D66;215,000&#x5186; / &#x5C02;&#x9580;&#x30FB;&#x77ED;&#x5927;&#x5352;&#xFF1A;&#x6708;&#x7D66;227,500&#x5186;',
         '【賞与】年2回（前年実績：基本給5か月分、夏2か月・冬3か月）',
         '【手当】通勤手当、住宅手当、家族手当など',
         '【休日】完全週休2日制（土日祝）、年間休日120日以上、有給取得推進'
@@ -89,11 +90,11 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 2,
       title: '【新卒・中途】システムエンジニア（ネットワーク設定・ITサポート）',
-      tags: ['新卒・第二新卒歓迎', '中途（既卒）OK', '正社員', '秋田市', '土日祝休み', '残業ほぼなし'],
+      tags: ['新卒・第二新卒歓迎', '中途OK', '正社員', '秋田市', '土日祝休み', '残業ほぼなし'],
       summary: 'ネットワーク機器やクラウドPBXの設定、導入後サポートを担当します。ITに興味がある方を育てるポジションです。',
       impact: String.fromCharCode(0x898B,0x3048,0x306A,0x3044,0x901A,0x4FE1,0x3092,0x3001,0x983C,0x308C,0x308B,0x6280,0x8853,0x306B,0x3002),
       meta: [
-        { label: '給与', value: '月給23万円から' },
+        { label: String.fromCharCode(0x7D66,0x4E0E), value: String.fromCharCode(0x5B66,0x6B74,0x5225,0x306B,0x8A2D,0x5B9A) },
         { label: '休日', value: '土日祝休み' },
         { label: '勤務', value: '残業ほぼなし' },
         { label: '対象', value: '資格不問' }
@@ -108,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <ul style="list-style-type: none; padding-left: 0; margin-top: 10px;">
             <li style="margin-bottom: 8px;"><strong>資格・経験不問</strong> ITや通信に興味があれば歓迎します。</li>
             <li style="margin-bottom: 8px;"><strong>働きやすい環境</strong> 完全週休2日制で、残業はほとんどありません。転勤もありません。</li>
-            <li style="margin-bottom: 8px;"><strong>安定待遇</strong> 月給23万円から。入社5年で年収600万円も目指せます。</li>
+            <li style="margin-bottom: 8px;"><strong>安定待遇</strong> \u5927\u5352\u30fb\u4e2d\u9014\uff1a\u6708\u7d66230,000\u5186\u304b\u3089。入社5年で年収600万円も目指せます。</li>
             <li><strong>地域貢献</strong> 仕事がそのまま地域の子ども食堂やスポーツ団体への支援にもつながります。</li>
           </ul>
         </div>
@@ -121,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         まずは先輩社員のサポートからスタートし、少しずつ専門知識を身につけていけます。
       `,
       requirements: [
-        '新卒（来春卒業予定）・第二新卒・既卒の方を歓迎',
+        '新卒（来春卒業予定）・第二新卒・中途の方を歓迎',
         '普通自動車運転免許（AT限定可）をお持ちの方。新卒者は入社後取得でOK',
         'ITやネットワーク機器の設定に興味があり、学ぶ意欲がある方',
         'TP-Link Omada SDN関連の認定資格（OCNAなど）をお持ちの方歓迎',
@@ -130,7 +131,8 @@ document.addEventListener('DOMContentLoaded', () => {
         '学歴不問。ハローワークでお仕事探し中の方も歓迎'
       ],
       details: [
-        '<strong>【給与】</strong>月給23万円から（固定残業代5時間分含む）※経験・スキル・前職給与を最大限考慮<br><span style="font-size: 0.9em; color: #555;">初任給例：月給23万円＋通勤手当＋住宅手当＋家族手当</span><br><span style="font-size: 0.9em; color: #555;">年収例：入社5年 年収600万円</span>',
+        '<strong>【給与】</strong>\u5927\u5352\u30fb\u4e2d\u9014\uff1a\u6708\u7d66230,000\u5186\u304b\u3089（固定残業代5時間分含む）※経験・スキル・前職給与を最大限考慮<br><span style="font-size: 0.9em; color: #555;">\u521d\u4efb\u7d66\u4f8b\uff1a\u5927\u5352\u30fb\u4e2d\u9014 \u6708\u7d66230,000\u5186\uff0b通勤手当＋住宅手当＋家族手当</span><br><span style="font-size: 0.9em; color: #555;">年収例：入社5年 年収600万円</span>',
+        '<strong>&#x3010;&#x5B66;&#x6B74;&#x5225;&#x521D;&#x4EFB;&#x7D66;&#x3011;</strong>&#x9AD8;&#x5352;&#xFF1A;&#x6708;&#x7D66;195,000&#x5186; / &#x5C02;&#x9580;&#x30FB;&#x77ED;&#x5927;&#x5352;&#xFF1A;&#x6708;&#x7D66;212,500&#x5186;',
         '<strong>【賞与・昇給】</strong>賞与年2回、昇給年1回、資格・ランクアップ制度あり',
         '<strong>【手当】</strong>通勤手当、残業手当、住宅手当、家族手当、経験者手当、資格手当',
         '<strong>【休日・休暇】</strong>完全週休2日制（土日祝）、年間休日120日以上、年末年始・夏季・慶弔休暇、有給休暇',
@@ -143,11 +145,11 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 3,
       title: '【中途採用】技術職（通信インフラ工事・保守）',
-      tags: ['中途採用（既卒）', '正社員', '秋田市', '月給23万円から', '経験者優遇', '土日祝休み'],
+      tags: ['中途採用', '正社員', '秋田市', '\u5927\u5352\u30fb\u4e2d\u9014\uff1a\u6708\u7d66230,000\u5186\u304b\u3089', '経験者優遇', '土日祝休み'],
       summary: 'ビジネスフォン、Wi-Fi、防犯カメラなどの設置・配線・保守を担当します。経験や資格を評価します。',
       impact: String.fromCharCode(0x79CB,0x7530,0x306E,0x73FE,0x5834,0x3092,0x3001,0x6280,0x8853,0x3067,0x652F,0x3048,0x308B,0x3002),
       meta: [
-        { label: '給与', value: '月給23万円から' },
+        { label: String.fromCharCode(0x7D66,0x4E0E), value: String.fromCharCode(0x5B66,0x6B74,0x5225,0x306B,0x8A2D,0x5B9A) },
         { label: '休日', value: '土日祝休み' },
         { label: '勤務地', value: '秋田市・転勤なし' },
         { label: '対象', value: '経験者優遇' }
@@ -162,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <ul style="list-style-type: none; padding-left: 0; margin-top: 10px;">
             <li style="margin-bottom: 8px;"><strong>経験者・有資格者を優遇</strong> 工事担任者、第二種電気工事士などの資格をお持ちの方は特に歓迎します。</li>
             <li style="margin-bottom: 8px;"><strong>働きやすい環境</strong> 完全週休2日制で、残業は少なめです。転勤もありません。</li>
-            <li style="margin-bottom: 8px;"><strong>安定待遇</strong> 月給23万円から。経験やスキルに応じて給与を決定します。</li>
+            <li style="margin-bottom: 8px;"><strong>安定待遇</strong> \u5927\u5352\u30fb\u4e2d\u9014\uff1a\u6708\u7d66230,000\u5186\u304b\u3089。経験やスキルに応じて給与を決定します。</li>
             <li><strong>地域貢献</strong> 通信インフラを支えることで、秋田の企業活動を支える仕事です。</li>
           </ul>
         </div>
@@ -184,7 +186,8 @@ document.addEventListener('DOMContentLoaded', () => {
         '学歴不問。ハローワークでお仕事探し中の方も歓迎'
       ],
       details: [
-        '<strong>【給与】</strong>月給23万円から（固定残業代5時間分含む）※経験・スキル・前職給与を最大限考慮',
+        '<strong>【給与】</strong>\u5927\u5352\u30fb\u4e2d\u9014\uff1a\u6708\u7d66230,000\u5186\u304b\u3089（固定残業代5時間分含む）※経験・スキル・前職給与を最大限考慮',
+        '<strong>&#x3010;&#x5B66;&#x6B74;&#x5225;&#x521D;&#x4EFB;&#x7D66;&#x3011;</strong>&#x9AD8;&#x5352;&#xFF1A;&#x6708;&#x7D66;195,000&#x5186; / &#x5C02;&#x9580;&#x30FB;&#x77ED;&#x5927;&#x5352;&#xFF1A;&#x6708;&#x7D66;212,500&#x5186;',
         '<strong>【賞与・昇給】</strong>賞与年2回、昇給年1回、資格・ランクアップ制度あり',
         '<strong>【手当】</strong>通勤手当、残業手当、住宅手当、家族手当、経験者手当、資格手当',
         '<strong>【休日・休暇】</strong>完全週休2日制（土日祝）、年間休日120日以上、年末年始・夏季・慶弔休暇、有給休暇',

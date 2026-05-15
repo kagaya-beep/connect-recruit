@@ -2052,3 +2052,15 @@ body.modal-open {
     transform: none;
   }
 }
+
+.no-break {
+  display: inline-block;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
+.lead-text strong.no-break,
+.diagram-title .no-break,
+.cycle-node strong.no-break {
+  letter-spacing: 0;
+}
