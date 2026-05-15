@@ -179,6 +179,58 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const jobsContainer = document.getElementById('jobsContainer');
+  const contactUrl = 'https://connect-web.jp/contact';
+
+  const entryModal = document.createElement('div');
+  entryModal.className = 'entry-modal';
+  entryModal.setAttribute('aria-hidden', 'true');
+  entryModal.innerHTML = `
+    <div class="entry-modal-backdrop" data-entry-modal-close></div>
+    <div class="entry-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="entryModalTitle">
+      <button type="button" class="entry-modal-close" aria-label="閉じる" data-entry-modal-close>×</button>
+      <p class="entry-modal-kicker">ENTRY CONFIRMATION</p>
+      <h3 id="entryModalTitle">応募職種の記入をお願いします</h3>
+      <p class="entry-modal-lead">次のフォームの「お問い合わせ内容」欄に、下記の職種名を記入してください。</p>
+      <div class="entry-modal-job" id="entryModalJob"></div>
+      <p class="entry-modal-example">記入例：採用応募／<span id="entryModalExample"></span>に応募希望</p>
+      <div class="entry-modal-actions">
+        <button type="button" class="btn-outline" data-entry-modal-close>戻る</button>
+        <a href="${contactUrl}" target="_blank" class="btn-primary" id="entryModalProceed">フォームへ進む</a>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(entryModal);
+
+  const modalJob = entryModal.querySelector('#entryModalJob');
+  const modalExample = entryModal.querySelector('#entryModalExample');
+  const modalProceed = entryModal.querySelector('#entryModalProceed');
+  const modalCloseEls = entryModal.querySelectorAll('[data-entry-modal-close]');
+
+  function openEntryModal(jobTitle) {
+    modalJob.textContent = jobTitle;
+    modalExample.textContent = jobTitle;
+    modalProceed.href = `${contactUrl}?job=${encodeURIComponent(jobTitle)}`;
+    entryModal.classList.add('active');
+    entryModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+    modalProceed.focus();
+  }
+
+  function closeEntryModal() {
+    entryModal.classList.remove('active');
+    entryModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+  }
+
+  modalCloseEls.forEach(el => {
+    el.addEventListener('click', closeEntryModal);
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && entryModal.classList.contains('active')) {
+      closeEntryModal();
+    }
+  });
 
   function renderJobs() {
     jobsContainer.innerHTML = '';
@@ -224,7 +276,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <h4>【求める人物・必須条件】</h4>
           <ul>${reqsHtml}</ul>
           <div style="margin-top: 25px; text-align: center;">
-            <a href="https://connect-web.jp/contact" target="_blank" class="btn-primary btn-small">この職種にエントリー</a>
+            <button type="button" class="btn-primary btn-small entry-trigger">この職種にエントリー</button>
+            <p class="entry-note">フォーム移動前に、応募職種の記入案内を表示します。</p>
           </div>
         </div>
       `;
@@ -242,6 +295,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!isActive) {
           jobItem.classList.add('active');
         }
+      });
+
+      const entryTrigger = jobItem.querySelector('.entry-trigger');
+      entryTrigger.addEventListener('click', event => {
+        event.stopPropagation();
+        openEntryModal(job.title);
       });
     });
   }
