@@ -1,0 +1,994 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/r5o6e2",
+    "id": "r5o6e2",
+    "slide": 19,
+    "layoutId": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Yu Gothic UI"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3ylc7u5",
+      "id": "2",
+      "bbox": [
+        895,
+        -76,
+        260,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(88, 213, 215, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kre1w7m",
+      "id": "3",
+      "bbox": [
+        1025,
+        54,
+        185,
+        185
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(189, 231, 231, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwval87",
+      "id": "4",
+      "bbox": [
+        1012,
+        505,
+        250,
+        250
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(230, 248, 247, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6tovaho",
+      "id": "5",
+      "bbox": [
+        0,
+        650,
+        1280,
+        20
+      ],
+      "geometry": "rect",
+      "fillColor": "#B4EAE6",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/crmhk3q5",
+      "id": "6",
+      "bbox": [
+        0,
+        670,
+        1280,
+        50
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF9F8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cfa9w3m",
+      "id": "7",
+      "bbox": [
+        0,
+        118,
+        42,
+        172
+      ],
+      "geometry": "rect",
+      "fillColor": "#83D7D4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qh0fepkz",
+      "id": "8",
+      "bbox": [
+        8,
+        134,
+        28,
+        140
+      ],
+      "geometry": "rect",
+      "text": "RECRUIT",
+      "textPreview": "RECRUIT",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "REC"
+          },
+          {
+            "index": 2,
+            "text": "RUI"
+          },
+          {
+            "index": 3,
+            "text": "T"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RECRUIT",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RECRUIT",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "9",
+      "bbox": [
+        74,
+        64,
+        380,
+        24
+      ],
+      "geometry": "rect",
+      "text": "求める人物像",
+      "textPreview": "求める人物像",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#3EC6CF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "求める人物像"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "求める人物像",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#3EC6CF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "求める人物像",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#3EC6CF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "10",
+      "bbox": [
+        74,
+        96,
+        150,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#9EE4E1",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "11",
+      "bbox": [
+        228,
+        96,
+        84,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#E0F5F4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "12",
+      "bbox": [
+        1174,
+        654,
+        42,
+        20
+      ],
+      "geometry": "rect",
+      "text": "19",
+      "textPreview": "19",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#8FA3AE",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "19"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "19",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#8FA3AE",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "19",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#8FA3AE"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "13",
+      "bbox": [
+        78,
+        126,
+        820,
+        132
+      ],
+      "geometry": "rect",
+      "text": "経験よりも、誠実に向き合う姿勢を\n大切にしています。",
+      "textPreview": "経験よりも、誠実に向き合う姿勢を | 大切にしています。",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "経験よりも、誠実に向き合う姿勢を"
+          },
+          {
+            "index": 2,
+            "text": "大切にしています。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "経験よりも、誠実に向き合う姿勢を",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "経験よりも、誠実に向き合う姿勢を",
+              "fontSize": 38,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "大切にしています。",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "大切にしています。",
+              "fontSize": 38,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "14",
+      "bbox": [
+        80,
+        286,
+        740,
+        66
+      ],
+      "geometry": "rect",
+      "text": "専門知識は入社後に身につけられます。大切なのは、人や地域に誠実にかかわる姿勢です。",
+      "textPreview": "専門知識は入社後に身につけられます。大切なのは、人や地域に誠実にかかわる姿勢です。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Yu Gothic UI",
+        "color": "#405567",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "専門知識は入社後に身につけられます。大切なのは、人や地域に誠実にかかわる姿勢です。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "専門知識は入社後に身につけられます。大切なのは、人や地域に誠実にかかわる姿勢です。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Yu Gothic UI",
+            "color": "#405567",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "専門知識は入社後に身につけられます。大切なのは、人や地域に誠実にかかわる姿勢です。",
+              "fontSize": 19,
+              "typeface": "Yu Gothic UI",
+              "color": "#405567"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "15",
+      "bbox": [
+        86,
+        426,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(190, 232, 230, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "16",
+      "bbox": [
+        80,
+        418,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3FBFB",
+      "lineColor": "#BDE7E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "17",
+      "bbox": [
+        104,
+        443,
+        400,
+        64
+      ],
+      "geometry": "rect",
+      "text": "人の役に立ちたい",
+      "textPreview": "人の役に立ちたい",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "人の役に立ちたい"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "人の役に立ちたい",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "人の役に立ちたい",
+              "fontSize": 20,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bi9s36hc",
+      "id": "18",
+      "bbox": [
+        558,
+        426,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(190, 232, 230, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixczed8v",
+      "id": "19",
+      "bbox": [
+        552,
+        418,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3FBFB",
+      "lineColor": "#BDE7E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "20",
+      "bbox": [
+        576,
+        443,
+        400,
+        64
+      ],
+      "geometry": "rect",
+      "text": "秋田に根ざしたい",
+      "textPreview": "秋田に根ざしたい",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "秋田に根ざしたい"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "秋田に根ざしたい",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "秋田に根ざしたい",
+              "fontSize": 20,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "21",
+      "bbox": [
+        86,
+        540,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(190, 232, 230, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orytsvu9",
+      "id": "22",
+      "bbox": [
+        80,
+        532,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3FBFB",
+      "lineColor": "#BDE7E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "23",
+      "bbox": [
+        104,
+        557,
+        400,
+        64
+      ],
+      "geometry": "rect",
+      "text": "学び続けたい",
+      "textPreview": "学び続けたい",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "学び続けたい"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "学び続けたい",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "学び続けたい",
+              "fontSize": 20,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "24",
+      "bbox": [
+        558,
+        540,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(190, 232, 230, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "25",
+      "bbox": [
+        552,
+        532,
+        448,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3FBFB",
+      "lineColor": "#BDE7E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "26",
+      "bbox": [
+        576,
+        557,
+        400,
+        64
+      ],
+      "geometry": "rect",
+      "text": "チームで働きたい",
+      "textPreview": "チームで働きたい",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "チームで働きたい"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "チームで働きたい",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "チームで働きたい",
+              "fontSize": 20,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,834 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/xbdwih",
+    "id": "xbdwih",
+    "slide": 2,
+    "layoutId": "3fe8d517-4c3e-4943-9031-c1fd439afa16",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "298a6bf1-373d-4c87-9e15-1bf5d8db0738",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Yu Gothic UI"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3fe8d517-4c3e-4943-9031-c1fd439afa16",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "298a6bf1-373d-4c87-9e15-1bf5d8db0738",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "298a6bf1-373d-4c87-9e15-1bf5d8db0738",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hwfyx",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q5o7qpg",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        96
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4FAFC",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9cvixcz",
+      "id": "3",
+      "bbox": [
+        928,
+        96,
+        352,
+        624
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FBFD",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "4",
+      "bbox": [
+        64,
+        60,
+        142,
+        34
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF7FA",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3m94fu1",
+      "id": "5",
+      "bbox": [
+        82,
+        68,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "COMMON",
+      "textPreview": "COMMON",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#005AAB",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COMMON"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COMMON",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#005AAB",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COMMON",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#005AAB",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3itgfmlk",
+      "id": "6",
+      "bbox": [
+        64,
+        146,
+        780,
+        142
+      ],
+      "geometry": "rect",
+      "text": "電話がつながる。\nネットが動く。",
+      "textPreview": "電話がつながる。 | ネットが動く。",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 42,
+        "typeface": "Yu Gothic UI",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "電話がつながる。"
+          },
+          {
+            "index": 2,
+            "text": "ネットが動く。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "電話がつながる。",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Yu Gothic UI",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "電話がつながる。",
+              "fontSize": 42,
+              "typeface": "Yu Gothic UI",
+              "color": "#102033",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "ネットが動く。",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Yu Gothic UI",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ネットが動く。",
+              "fontSize": 42,
+              "typeface": "Yu Gothic UI",
+              "color": "#102033",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex0nuxc3",
+      "id": "7",
+      "bbox": [
+        66,
+        374,
+        690,
+        166
+      ],
+      "geometry": "rect",
+      "text": "それだけで、仕事は進む。私たちは、企業の毎日を支える通信・ITのパートナーです。",
+      "textPreview": "それだけで、仕事は進む。私たちは、企業の毎日を支える通信・ITのパートナーです。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Yu Gothic UI",
+        "color": "#304255",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "それだけで、仕事は進む。私たちは、企業の毎日を支える通信・ITのパートナーで"
+          },
+          {
+            "index": 2,
+            "text": "す。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "それだけで、仕事は進む。私たちは、企業の毎日を支える通信・ITのパートナーです。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Yu Gothic UI",
+            "color": "#304255",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "それだけで、仕事は進む。私たちは、企業の毎日を支える通信・ITのパートナーです。",
+              "fontSize": 22,
+              "typeface": "Yu Gothic UI",
+              "color": "#304255"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "8",
+      "bbox": [
+        760,
+        210,
+        160,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF7FA",
+      "lineColor": "#DCE8EF",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "9",
+      "bbox": [
+        774,
+        227,
+        132,
+        20
+      ],
+      "geometry": "rect",
+      "text": "電話",
+      "textPreview": "電話",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Yu Gothic UI",
+        "color": "#005AAB",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "電話"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "電話",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Yu Gothic UI",
+            "color": "#005AAB",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "電話",
+              "fontSize": 17,
+              "typeface": "Yu Gothic UI",
+              "color": "#005AAB",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "10",
+      "bbox": [
+        950,
+        210,
+        160,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF7FA",
+      "lineColor": "#DCE8EF",
+      "lineWidth": 1
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "11",
+      "bbox": [
+        964,
+        227,
+        132,
+        20
+      ],
+      "geometry": "rect",
+      "text": "ネット",
+      "textPreview": "ネット",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Yu Gothic UI",
+        "color": "#005AAB",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ネット"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ネット",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Yu Gothic UI",
+            "color": "#005AAB",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ネット",
+              "fontSize": 17,
+              "typeface": "Yu Gothic UI",
+              "color": "#005AAB",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "12",
+      "bbox": [
+        760,
+        296,
+        160,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF7FA",
+      "lineColor": "#DCE8EF",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "13",
+      "bbox": [
+        774,
+        313,
+        132,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Wi-Fi",
+      "textPreview": "Wi-Fi",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Yu Gothic UI",
+        "color": "#005AAB",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Wi-Fi"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Wi-Fi",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Yu Gothic UI",
+            "color": "#005AAB",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Wi-Fi",
+              "fontSize": 17,
+              "typeface": "Yu Gothic UI",
+              "color": "#005AAB",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "14",
+      "bbox": [
+        950,
+        296,
+        160,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF7FA",
+      "lineColor": "#DCE8EF",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgn29g",
+      "id": "15",
+      "bbox": [
+        964,
+        313,
+        132,
+        20
+      ],
+      "geometry": "rect",
+      "text": "相談",
+      "textPreview": "相談",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Yu Gothic UI",
+        "color": "#005AAB",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "相談"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "相談",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Yu Gothic UI",
+            "color": "#005AAB",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "相談",
+              "fontSize": 17,
+              "typeface": "Yu Gothic UI",
+              "color": "#005AAB",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "16",
+      "bbox": [
+        64,
+        662,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "私たちの仕事",
+      "textPreview": "私たちの仕事",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "私たちの仕事"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "私たちの仕事",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#64748B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "私たちの仕事",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "17",
+      "bbox": [
+        1150,
+        662,
+        60,
+        22
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#64748B",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

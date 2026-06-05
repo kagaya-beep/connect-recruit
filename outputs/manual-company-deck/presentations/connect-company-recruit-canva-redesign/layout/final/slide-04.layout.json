@@ -1,0 +1,706 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/x1tszc",
+    "id": "x1tszc",
+    "slide": 4,
+    "layoutId": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Yu Gothic UI"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcrmhk3q",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al87ed8b",
+      "id": "2",
+      "bbox": [
+        895,
+        -76,
+        260,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(88, 213, 215, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61032ls",
+      "id": "3",
+      "bbox": [
+        1025,
+        54,
+        185,
+        185
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(189, 231, 231, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "4",
+      "bbox": [
+        1012,
+        505,
+        250,
+        250
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(230, 248, 247, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "5",
+      "bbox": [
+        0,
+        650,
+        1280,
+        20
+      ],
+      "geometry": "rect",
+      "fillColor": "#B4EAE6",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9w3m94f",
+      "id": "6",
+      "bbox": [
+        0,
+        670,
+        1280,
+        50
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF9F8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zupwb2hw",
+      "id": "7",
+      "bbox": [
+        0,
+        118,
+        42,
+        172
+      ],
+      "geometry": "rect",
+      "fillColor": "#83D7D4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "8",
+      "bbox": [
+        8,
+        134,
+        28,
+        140
+      ],
+      "geometry": "rect",
+      "text": "COMMON",
+      "textPreview": "COMMON",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CO"
+          },
+          {
+            "index": 2,
+            "text": "MM"
+          },
+          {
+            "index": 3,
+            "text": "ON"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COMMON",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COMMON",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "9",
+      "bbox": [
+        74,
+        64,
+        380,
+        24
+      ],
+      "geometry": "rect",
+      "text": "経営理念",
+      "textPreview": "経営理念",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#3EC6CF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "経営理念"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "経営理念",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#3EC6CF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "経営理念",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#3EC6CF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "10",
+      "bbox": [
+        74,
+        96,
+        150,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#9EE4E1",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nap4r65",
+      "id": "11",
+      "bbox": [
+        228,
+        96,
+        84,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#E0F5F4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "12",
+      "bbox": [
+        1174,
+        654,
+        42,
+        20
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#8FA3AE",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#8FA3AE",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#8FA3AE"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "13",
+      "bbox": [
+        78,
+        126,
+        420,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Management Philosophy",
+      "textPreview": "Management Philosophy",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "color": "#3EC6CF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Management Philosophy"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Management Philosophy",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Aptos",
+            "color": "#3EC6CF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Management Philosophy",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#3EC6CF"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twra5gbq",
+      "id": "14",
+      "bbox": [
+        78,
+        194,
+        900,
+        132
+      ],
+      "geometry": "rect",
+      "text": "縁を尊び、誠実にかかわり合い、\n互いの幸せを願い合う。",
+      "textPreview": "縁を尊び、誠実にかかわり合い、 | 互いの幸せを願い合う。",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 42,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "縁を尊び、誠実にかかわり合い、"
+          },
+          {
+            "index": 2,
+            "text": "互いの幸せを願い合う。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "縁を尊び、誠実にかかわり合い、",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "縁を尊び、誠実にかかわり合い、",
+              "fontSize": 42,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "互いの幸せを願い合う。",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "互いの幸せを願い合う。",
+              "fontSize": 42,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "15",
+      "bbox": [
+        82,
+        386,
+        120,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#3EC6CF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "16",
+      "bbox": [
+        82,
+        436,
+        850,
+        92
+      ],
+      "geometry": "rect",
+      "text": "お客様、地域、仲間。かかわるすべての人との縁を大切にしながら、通信とITを通じて安心を届けていきます。",
+      "textPreview": "お客様、地域、仲間。かかわるすべての人との縁を大切にしながら、通信とITを通じて安心を届けていきます。",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Yu Gothic UI",
+        "color": "#3E5263",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "お客様、地域、仲間。かかわるすべての人との縁を大切にしながら、通信とITを通じて安心を届けていきま"
+          },
+          {
+            "index": 2,
+            "text": "す。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "お客様、地域、仲間。かかわるすべての人との縁を大切にしながら、通信とITを通じて安心を届けていきます。",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Yu Gothic UI",
+            "color": "#3E5263",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "お客様、地域、仲間。かかわるすべての人との縁を大切にしながら、通信とITを通じて安心を届けていきます。",
+              "fontSize": 21,
+              "typeface": "Yu Gothic UI",
+              "color": "#3E5263"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "17",
+      "bbox": [
+        1016,
+        104,
+        48,
+        410
+      ],
+      "geometry": "rect",
+      "fillColor": "#83D7D4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "18",
+      "bbox": [
+        1080,
+        104,
+        22,
+        410
+      ],
+      "geometry": "rect",
+      "fillColor": "#E0F5F4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

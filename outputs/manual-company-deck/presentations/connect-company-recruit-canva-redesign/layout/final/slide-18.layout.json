@@ -1,0 +1,913 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/acgpwr",
+    "id": "acgpwr",
+    "slide": 18,
+    "layoutId": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Yu Gothic UI"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4byhgn29",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "2",
+      "bbox": [
+        895,
+        -76,
+        260,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(88, 213, 215, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "3",
+      "bbox": [
+        1025,
+        54,
+        185,
+        185
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(189, 231, 231, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t83itgfm",
+      "id": "4",
+      "bbox": [
+        1012,
+        505,
+        250,
+        250
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(230, 248, 247, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nap4r65",
+      "id": "5",
+      "bbox": [
+        0,
+        650,
+        1280,
+        20
+      ],
+      "geometry": "rect",
+      "fillColor": "#B4EAE6",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hwfyxo",
+      "id": "6",
+      "bbox": [
+        0,
+        670,
+        1280,
+        50
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF9F8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhk3q5o7",
+      "id": "7",
+      "bbox": [
+        0,
+        118,
+        42,
+        172
+      ],
+      "geometry": "rect",
+      "fillColor": "#83D7D4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "8",
+      "bbox": [
+        8,
+        134,
+        28,
+        140
+      ],
+      "geometry": "rect",
+      "text": "RECRUIT",
+      "textPreview": "RECRUIT",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "REC"
+          },
+          {
+            "index": 2,
+            "text": "RUI"
+          },
+          {
+            "index": 3,
+            "text": "T"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RECRUIT",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RECRUIT",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "9",
+      "bbox": [
+        74,
+        64,
+        380,
+        24
+      ],
+      "geometry": "rect",
+      "text": "技術職",
+      "textPreview": "技術職",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#3EC6CF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "技術職"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "技術職",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#3EC6CF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "技術職",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#3EC6CF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5sneloj",
+      "id": "10",
+      "bbox": [
+        74,
+        96,
+        150,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#9EE4E1",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "11",
+      "bbox": [
+        228,
+        96,
+        84,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#E0F5F4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "12",
+      "bbox": [
+        1174,
+        654,
+        42,
+        20
+      ],
+      "geometry": "rect",
+      "text": "18",
+      "textPreview": "18",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#8FA3AE",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#8FA3AE",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "18",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#8FA3AE"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "13",
+      "bbox": [
+        78,
+        132,
+        420,
+        26
+      ],
+      "geometry": "rect",
+      "text": "技術職",
+      "textPreview": "技術職",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Yu Gothic UI",
+        "color": "#0067B1",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "技術職"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "技術職",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Yu Gothic UI",
+            "color": "#0067B1",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "技術職",
+              "fontSize": 19,
+              "typeface": "Yu Gothic UI",
+              "color": "#0067B1",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "14",
+      "bbox": [
+        78,
+        192,
+        720,
+        132
+      ],
+      "geometry": "rect",
+      "text": "秋田の現場を、\n技術で支える。",
+      "textPreview": "秋田の現場を、 | 技術で支える。",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 36,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "秋田の現場を、"
+          },
+          {
+            "index": 2,
+            "text": "技術で支える。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "秋田の現場を、",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "秋田の現場を、",
+              "fontSize": 36,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "技術で支える。",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "技術で支える。",
+              "fontSize": 36,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "15",
+      "bbox": [
+        80,
+        406,
+        680,
+        84
+      ],
+      "geometry": "rect",
+      "text": "導入・設定・保守を通じて、お客様の「困った」に直接応えます。現場で役に立てる実感がある仕事です。",
+      "textPreview": "導入・設定・保守を通じて、お客様の「困った」に直接応えます。現場で役に立てる実感がある仕事です。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Yu Gothic UI",
+        "color": "#405567",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "導入・設定・保守を通じて、お客様の「困った」に直接応えます。現場で役に立てる実感があ"
+          },
+          {
+            "index": 2,
+            "text": "る仕事です。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "導入・設定・保守を通じて、お客様の「困った」に直接応えます。現場で役に立てる実感がある仕事です。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Yu Gothic UI",
+            "color": "#405567",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "導入・設定・保守を通じて、お客様の「困った」に直接応えます。現場で役に立てる実感がある仕事です。",
+              "fontSize": 19,
+              "typeface": "Yu Gothic UI",
+              "color": "#405567"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "16",
+      "bbox": [
+        848,
+        190,
+        250,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3FBFB",
+      "lineColor": "#BDE7E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "17",
+      "bbox": [
+        870,
+        206,
+        206,
+        20
+      ],
+      "geometry": "rect",
+      "text": "現場対応",
+      "textPreview": "現場対応",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "現場対応"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "現場対応",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "現場対応",
+              "fontSize": 17,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "18",
+      "bbox": [
+        848,
+        276,
+        250,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3FBFB",
+      "lineColor": "#BDE7E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "19",
+      "bbox": [
+        870,
+        292,
+        206,
+        20
+      ],
+      "geometry": "rect",
+      "text": "機器設定",
+      "textPreview": "機器設定",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "機器設定"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "機器設定",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "機器設定",
+              "fontSize": 17,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji5snelo",
+      "id": "20",
+      "bbox": [
+        848,
+        362,
+        250,
+        54
+      ],
+      "geometry": "rect",
+      "fillColor": "#F3FBFB",
+      "lineColor": "#BDE7E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxc3ylc7",
+      "id": "21",
+      "bbox": [
+        870,
+        378,
+        206,
+        20
+      ],
+      "geometry": "rect",
+      "text": "保守",
+      "textPreview": "保守",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "保守"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "保守",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "保守",
+              "fontSize": 17,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

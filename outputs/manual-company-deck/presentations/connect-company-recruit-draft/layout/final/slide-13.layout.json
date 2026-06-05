@@ -1,0 +1,501 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/z16z01",
+    "id": "z16z01",
+    "slide": 13,
+    "layoutId": "64c2dd07-0799-4284-96e9-f194b031ae8e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "4b606446-5441-4df7-bfa6-662ef142a11b",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Yu Gothic UI"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "64c2dd07-0799-4284-96e9-f194b031ae8e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "4b606446-5441-4df7-bfa6-662ef142a11b",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "4b606446-5441-4df7-bfa6-662ef142a11b",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/i5sneloj",
+      "id": "2",
+      "bbox": [
+        720,
+        0,
+        560,
+        720
+      ],
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "43453f9b-1664-4ddc-a2fb-0d7e33eba25c",
+        "contentType": "image/png",
+        "byteLength": 6153468
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "3",
+      "bbox": [
+        720,
+        0,
+        560,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(7, 26, 53, 0.26667)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "4",
+      "bbox": [
+        64,
+        60,
+        142,
+        34
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF7FA",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "5",
+      "bbox": [
+        82,
+        68,
+        110,
+        18
+      ],
+      "geometry": "rect",
+      "text": "COMMON",
+      "textPreview": "COMMON",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#005AAB",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COMMON"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COMMON",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#005AAB",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COMMON",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#005AAB",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "6",
+      "bbox": [
+        64,
+        142,
+        590,
+        142
+      ],
+      "geometry": "rect",
+      "text": "支援は、地域の未来に\nつながっていく。",
+      "textPreview": "支援は、地域の未来に | つながっていく。",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 42,
+        "typeface": "Yu Gothic UI",
+        "color": "#102033",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "支援は、地域の未来に"
+          },
+          {
+            "index": 2,
+            "text": "つながっていく。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "支援は、地域の未来に",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Yu Gothic UI",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "支援は、地域の未来に",
+              "fontSize": 42,
+              "typeface": "Yu Gothic UI",
+              "color": "#102033",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "つながっていく。",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "typeface": "Yu Gothic UI",
+            "color": "#102033",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "つながっていく。",
+              "fontSize": 42,
+              "typeface": "Yu Gothic UI",
+              "color": "#102033",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "7",
+      "bbox": [
+        66,
+        390,
+        560,
+        166
+      ],
+      "geometry": "rect",
+      "text": "子ども食堂。スポーツ支援。障がい者支援。私たちは、通信サービスを通じて、地域で活動する人たちを応援しています。企業の通信環境を支える仕事が、地域の未来にもつながっていきます。",
+      "textPreview": "子ども食堂。スポーツ支援。障がい者支援。私たちは、通信サービスを通じて、地域で活動する人たちを応援しています。企業の通信環境を支える仕事が、地域の未来にもつながっていきます。",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Yu Gothic UI",
+        "color": "#304255",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "子ども食堂。スポーツ支援。障がい者支援。私たちは、通信サービ"
+          },
+          {
+            "index": 2,
+            "text": "スを通じて、地域で活動する人たちを応援しています。企業の通"
+          },
+          {
+            "index": 3,
+            "text": "信環境を支える仕事が、地域の未来にもつながっていきます。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "子ども食堂。スポーツ支援。障がい者支援。私たちは、通信サービスを通じて、地域で活動する人たちを応援しています。企業の通信環境を支える仕事が、地域の未来にもつながっていきます。",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Yu Gothic UI",
+            "color": "#304255",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "子ども食堂。スポーツ支援。障がい者支援。私たちは、通信サービスを通じて、地域で活動する人たちを応援しています。企業の通信環境を支える仕事が、地域の未来にもつながっていきます。",
+              "fontSize": 22,
+              "typeface": "Yu Gothic UI",
+              "color": "#304255"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "8",
+      "bbox": [
+        64,
+        662,
+        420,
+        22
+      ],
+      "geometry": "rect",
+      "text": "地域還元の先",
+      "textPreview": "地域還元の先",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "地域還元の先"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "地域還元の先",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#64748B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "地域還元の先",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "9",
+      "bbox": [
+        1150,
+        662,
+        60,
+        22
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#64748B",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#64748B",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "13",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,5 @@
+2026/05/25-15:56:12.035 5134 Creating DB C:\Users\kagay\Desktop\AI用\connect-recruit\outputs\generated-images\edge-profile\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/05/25-15:56:12.068 5134 Reusing MANIFEST C:\Users\kagay\Desktop\AI用\connect-recruit\outputs\generated-images\edge-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/05/25-15:56:12.366 3420 Level-0 table #5: started
+2026/05/25-15:56:12.372 3420 Level-0 table #5: 682468 bytes OK
+2026/05/25-15:56:12.374 3420 Delete type=0 #3

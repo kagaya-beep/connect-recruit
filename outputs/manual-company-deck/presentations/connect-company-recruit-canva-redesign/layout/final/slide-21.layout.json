@@ -1,0 +1,618 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/cr1yvh",
+    "id": "cr1yvh",
+    "slide": 21,
+    "layoutId": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Yu Gothic UI"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "122fae07-e8e9-49cd-bf7a-c17d9a7ef038",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bb1f61c-fc13-4190-84ba-82d8a95e02a7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/loj2t83i",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ex0nuxc3",
+      "id": "2",
+      "bbox": [
+        895,
+        -76,
+        260,
+        260
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(88, 213, 215, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3itgfmlk",
+      "id": "3",
+      "bbox": [
+        1025,
+        54,
+        185,
+        185
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(189, 231, 231, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2hwfyx",
+      "id": "4",
+      "bbox": [
+        1012,
+        505,
+        250,
+        250
+      ],
+      "geometry": "ellipse",
+      "fillColor": "rgba(230, 248, 247, 0.4)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwval87e",
+      "id": "5",
+      "bbox": [
+        0,
+        650,
+        1280,
+        20
+      ],
+      "geometry": "rect",
+      "fillColor": "#B4EAE6",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9cvixcz",
+      "id": "6",
+      "bbox": [
+        0,
+        670,
+        1280,
+        50
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF9F8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q5o7qpg",
+      "id": "7",
+      "bbox": [
+        0,
+        118,
+        42,
+        172
+      ],
+      "geometry": "rect",
+      "fillColor": "#83D7D4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "8",
+      "bbox": [
+        8,
+        134,
+        28,
+        140
+      ],
+      "geometry": "rect",
+      "text": "COMMON",
+      "textPreview": "COMMON",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CO"
+          },
+          {
+            "index": 2,
+            "text": "MM"
+          },
+          {
+            "index": 3,
+            "text": "ON"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COMMON",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COMMON",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "9",
+      "bbox": [
+        74,
+        64,
+        380,
+        24
+      ],
+      "geometry": "rect",
+      "text": "会社概要",
+      "textPreview": "会社概要",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#3EC6CF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "会社概要"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "会社概要",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#3EC6CF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "会社概要",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#3EC6CF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kb6xkf6",
+      "id": "10",
+      "bbox": [
+        74,
+        96,
+        150,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#9EE4E1",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czed8v6p",
+      "id": "11",
+      "bbox": [
+        228,
+        96,
+        84,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#E0F5F4",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "12",
+      "bbox": [
+        1174,
+        654,
+        42,
+        20
+      ],
+      "geometry": "rect",
+      "text": "21",
+      "textPreview": "21",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#8FA3AE",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "21"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "21",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#8FA3AE",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "21",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#8FA3AE"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "13",
+      "bbox": [
+        78,
+        128,
+        590,
+        132
+      ],
+      "geometry": "rect",
+      "text": "株式会社コネクトについて。",
+      "textPreview": "株式会社コネクトについて。",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Yu Gothic UI",
+        "color": "#123047",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "株式会社コネクトについて。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "株式会社コネクトについて。",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Yu Gothic UI",
+            "color": "#123047",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "株式会社コネクトについて。",
+              "fontSize": 38,
+              "typeface": "Yu Gothic UI",
+              "color": "#123047",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sneloj2",
+      "id": "14",
+      "bbox": [
+        80,
+        364,
+        548,
+        112
+      ],
+      "geometry": "rect",
+      "text": "秋田県秋田市旭南3丁目3-27。2012年7月設立。通信関連機器サービスの卸売・小売を中心に、地域企業の通信・IT環境を支えています。",
+      "textPreview": "秋田県秋田市旭南3丁目3-27。2012年7月設立。通信関連機器サービスの卸売・小売を中心に、地域企業の通信・IT環境を支えています。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Yu Gothic UI",
+        "color": "#405567",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "秋田県秋田市旭南3丁目3-27。2012年7月設立。通信関連機器サービ"
+          },
+          {
+            "index": 2,
+            "text": "スの卸売・小売を中心に、地域企業の通信・IT環境を支えています。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "秋田県秋田市旭南3丁目3-27。2012年7月設立。通信関連機器サービスの卸売・小売を中心に、地域企業の通信・IT環境を支えています。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Yu Gothic UI",
+            "color": "#405567",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "秋田県秋田市旭南3丁目3-27。2012年7月設立。通信関連機器サービスの卸売・小売を中心に、地域企業の通信・IT環境を支えています。",
+              "fontSize": 19,
+              "typeface": "Yu Gothic UI",
+              "color": "#405567"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbulwval",
+      "id": "15",
+      "bbox": [
+        704,
+        132,
+        444,
+        318
+      ],
+      "geometry": "rect",
+      "fillColor": "#EAF9F8",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/wjudg7ad",
+      "id": "16",
+      "bbox": [
+        728,
+        156,
+        396,
+        270
+      ],
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "33c2f548-61bb-43f5-91af-7ed109243e5c",
+        "contentType": "image/jpeg",
+        "byteLength": 127907
+      }
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54zidon",
+      "id": "17",
+      "bbox": [
+        684,
+        112,
+        92,
+        92
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(131, 215, 212, 0.2)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
