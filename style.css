@@ -2065,6 +2065,15 @@ body.modal-open {
   letter-spacing: 0;
 }
 
+<<<<<<< HEAD
+=======
+.impact-copy-break {
+  display: block;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
+>>>>>>> 80d0e257972923bf1dd1e2ba1b08bc74eb6d08f5
 .hero-bg::after {
   content: '';
   position: absolute;
