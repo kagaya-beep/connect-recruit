@@ -1,8 +1,8 @@
 添付した資料をもとに、株式会社コネクトの「会社紹介・採用兼用スライド」をブラッシュアップしてください。
 
 添付資料：
-1. 01_company_recruit_deck_draft.pptx
-   - 現在の会社紹介・採用兼用スライド初稿です。
+1. 01_company_recruit_deck_latest.pdf
+   - 今回作成した会社紹介・採用兼用資料です。初回提示用の最新版として確認してください。
 2. 02_recruit_site.pdf
    - 現在制作中の採用サイトをPDF化したものです。トーンや見せ方を合わせたいです。
 3. 03_existing_company_profile.pdf
