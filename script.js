@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       ],
       meta: [
-        { label: String.fromCharCode(0x7D66,0x4E0E), value: '月給215,000円〜' },
+        { label: String.fromCharCode(0x7D66,0x4E0E), value: '月給227,500円〜' },
         { label: '休日', value: '土日祝休み' },
         { label: '勤務地', value: '秋田市・転勤なし' },
         { label: '対象', value: '未経験歓迎' }
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'チームの一員として周囲と協力できる方'
       ],
       details: [
-        "【新卒】高卒：月給215,000円 / 専門・短大卒：月給227,500円",
+        "【新卒】専門・短大卒：月給227,500円",
         "【中途】月給240,000円から ※経験不問。経験・スキルにより経験者手当あり",
         "【賞与】年2回（前年実績：基本給5か月分、夏2か月・冬3か月）",
         "【手当】通勤手当、住宅手当、家族手当など",
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       ],
       meta: [
-        { label: String.fromCharCode(0x7D66,0x4E0E), value: '月給195,000円〜' },
+        { label: String.fromCharCode(0x7D66,0x4E0E), value: '月給212,500円〜' },
         { label: '休日', value: '土日祝休み' },
         { label: '勤務', value: '残業ほぼなし' },
         { label: '対象', value: '資格不問' }
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '学歴不問。ハローワークでお仕事探し中の方も歓迎'
       ],
       details: [
-        "【新卒】高卒：月給195,000円 / 専門・短大卒：月給212,500円",
+        "【新卒】専門・短大卒：月給212,500円",
         "【中途】月給230,000円から ※経験不問。経験・スキルにより経験者手当あり",
         "【賞与・昇給】賞与年2回、昇給年1回、資格・ランクアップ制度あり",
         "【手当】通勤手当、残業手当、住宅手当、家族手当、経験者手当、資格手当",
