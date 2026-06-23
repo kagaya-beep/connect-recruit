@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="株式会社コネクトの新卒採用ページです。秋田で通信の仕事に挑戦したい方へ、育成体制や募集職種をご紹介します。">
+  <title>新卒採用 | 株式会社コネクト</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/logo.jpg" alt="株式会社コネクト" onload="this.nextElementSibling.style.display='none';" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+          <span>株式会社コネクト</span>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html#jobs">採用トップ</a></li>
+          <li><a href="recruit-career.html">中途採用</a></li>
+          <li><a href="recruit-technical.html">技術職採用</a></li>
+        </ul>
+      </nav>
+      <a href="#jobs" class="btn-primary">募集職種を見る</a>
+    </div>
+  </header>
+
+  <section class="recruit-page-hero">
+    <div class="container">
+      <p class="section-kicker">NEW GRADUATE</p>
+      <h1>はじめての社会人を、通信のプロへ。</h1>
+      <p>先輩同行や基礎研修を通じて、通信の仕事を一つずつ覚えていけます。秋田に根ざし、お客様の安心を支える仕事に挑戦したい方を歓迎します。</p>
+      <div class="recruit-page-tags">
+        <span>新卒歓迎</span>
+        <span>第二新卒歓迎</span>
+        <span>入社後免許取得OK</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="jobs section-padding bg-light" id="jobs">
+    <div class="container reveal">
+      <h2 class="section-title">新卒採用の募集職種</h2>
+      <p class="section-subtitle">まずは先輩と一緒に、通信の基礎から学べます</p>
+      <div class="jobs-accordion" id="jobsContainer" data-job-ids="1,2" data-recruit-mode="new">
+        <div class="loading">求人情報を読み込んでいます...</div>
+      </div>
+      <div class="page-back-link">
+        <a href="index.html#jobs">採用トップへ戻る</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
