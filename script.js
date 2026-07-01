@@ -103,6 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'わからないことを素直に聞き、周囲と協力しながら成長できる方'
       ],
       details: [
+        "【新卒】高校卒：月給215,000円",
         "【新卒】専門・短大卒：月給227,500円",
         "【中途】月給240,000円から ※経験不問。経験・スキルにより経験者手当あり",
         "【賞与】年2回（基本給4.5か月分、夏2か月・冬2.5か月）※実績に応じ報奨金あり"
@@ -163,6 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'ハローワークでお仕事探し中の方も歓迎'
       ],
       details: [
+        "【新卒】高校卒：月給195,000円",
         "【新卒】専門・短大卒：月給212,500円",
         "【中途】月給230,000円から ※経験不問。経験・スキルにより経験者手当あり",
         "【賞与】年2回（基本給4.5か月分、夏2か月・冬2.5か月）※実績に応じ報奨金あり"
@@ -305,8 +307,11 @@ document.addEventListener('DOMContentLoaded', () => {
       jobItem.id = `job-${job.id}`;
       
       const displayTags = (() => {
-        if (recruitMode === 'new' && (job.id === 1 || job.id === 2)) {
-          return ['新卒歓迎', '第二新卒歓迎', '正社員', '秋田市', '土日祝休み'];
+        if (recruitMode === 'highschool' && (job.id === 1 || job.id === 2)) {
+          return ['高校新卒採用', '正社員', '秋田市', '土日祝休み'];
+        }
+        if (recruitMode === 'college' && (job.id === 1 || job.id === 2)) {
+          return ['専門・短大卒', '第二新卒歓迎', '正社員', '秋田市', '土日祝休み'];
         }
         if (recruitMode === 'career' && (job.id === 1 || job.id === 2)) {
           return ['中途採用', '正社員', '秋田市', '経験不問', '土日祝休み', '転勤なし'];
@@ -316,12 +321,28 @@ document.addEventListener('DOMContentLoaded', () => {
       const tagsHtml = displayTags.map(tag => `<span class="tag">${tag}</span>`).join('');
       const displayMeta = job.meta
         .filter(item => {
-          if (recruitMode === 'new' && (job.id === 1 || job.id === 2)) {
+          if ((recruitMode === 'highschool' || recruitMode === 'college') && (job.id === 1 || job.id === 2)) {
             return item.label !== '対象';
           }
           return true;
         })
         .map(item => {
+          if (recruitMode === 'highschool' && item.label === String.fromCharCode(0x7D66, 0x4E0E)) {
+            if (job.id === 1) {
+              return { ...item, value: '月給215,000円〜' };
+            }
+            if (job.id === 2) {
+              return { ...item, value: '月給195,000円〜' };
+            }
+          }
+          if (recruitMode === 'college' && item.label === String.fromCharCode(0x7D66, 0x4E0E)) {
+            if (job.id === 1) {
+              return { ...item, value: '月給227,500円〜' };
+            }
+            if (job.id === 2) {
+              return { ...item, value: '月給212,500円〜' };
+            }
+          }
           if (recruitMode === 'career' && item.label === String.fromCharCode(0x7D66, 0x4E0E)) {
             if (job.id === 1) {
               return { ...item, value: '月給240,000円〜' };
@@ -339,8 +360,11 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `).join('');
       const requirements = job.requirements.map(req => {
-        if (recruitMode === 'new' && req === '新卒（来春卒業予定）・第二新卒・中途の方を歓迎') {
-          return '新卒（来春卒業予定）・第二新卒の方を歓迎';
+        if (recruitMode === 'highschool' && req === '新卒（来春卒業予定）・第二新卒・中途の方を歓迎') {
+          return '高等学校を卒業予定の方';
+        }
+        if (recruitMode === 'college' && req === '新卒（来春卒業予定）・第二新卒・中途の方を歓迎') {
+          return '専門学校・短大を卒業予定の方、第二新卒の方';
         }
         if (recruitMode === 'career' && req.includes('新卒者は入社後取得でOK')) {
           return '普通自動車運転免許（AT限定可）をお持ちの方';
@@ -348,7 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return req;
       });
       const displayRequirements = requirements.filter(req => {
-        if (recruitMode === 'new') {
+        if (recruitMode === 'highschool' || recruitMode === 'college') {
           return !req.includes('35歳まで')
             && !req.includes('TP-Link Omada SDN')
             && !req.includes('CCNA')
@@ -362,13 +386,14 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       const reqsHtml = displayRequirements.map(req => `<li>${req}</li>`).join('');
       const details = job.details.filter(det => {
-        if (recruitMode === 'new') return !det.startsWith('【中途】');
+        if (recruitMode === 'highschool') return det.includes('高校卒') || !det.startsWith('【新卒】') && !det.startsWith('【中途】');
+        if (recruitMode === 'college') return det.includes('専門・短大卒') || !det.startsWith('【新卒】') && !det.startsWith('【中途】');
         if (recruitMode === 'career') return !det.startsWith('【新卒】');
         return true;
       });
       const displayDetails = details.map(det => {
-        if (recruitMode === 'new') {
-          return det.replace(/^【新卒】/, '');
+        if (recruitMode === 'highschool' || recruitMode === 'college') {
+          return det.replace(/^【新卒】/, '').replace(/^高校卒：/, '').replace(/^専門・短大卒：/, '');
         }
         if (recruitMode === 'career') {
           return det.replace(/^【中途】/, '');
@@ -377,8 +402,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       const detailHtml = displayDetails.map(det => `<li>${det}</li>`).join('');
       const displayTitle = (() => {
-        if (recruitMode === 'new' && (job.id === 1 || job.id === 2)) {
-          return `【新卒採用】${job.title}`;
+        if (recruitMode === 'highschool' && (job.id === 1 || job.id === 2)) {
+          return `【高校新卒採用】${job.title}`;
+        }
+        if (recruitMode === 'college' && (job.id === 1 || job.id === 2)) {
+          return `【専門・短大・第二新卒採用】${job.title}`;
         }
         if (recruitMode === 'career' && (job.id === 1 || job.id === 2)) {
           return `【中途採用】${job.title}`;
@@ -386,7 +414,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return job.title;
       })();
       const audienceMessages = (() => {
-        if (recruitMode === 'new' && (job.id === 1 || job.id === 2)) {
+        if ((recruitMode === 'highschool' || recruitMode === 'college') && (job.id === 1 || job.id === 2)) {
           return job.audienceMessages?.slice(0, 1);
         }
         if (recruitMode === 'career' && (job.id === 1 || job.id === 2)) {
