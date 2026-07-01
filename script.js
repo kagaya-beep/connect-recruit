@@ -1,4 +1,27 @@
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+function resetPageScroll() {
+  if (!window.location.hash) {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }
+}
+
+window.addEventListener('pageshow', resetPageScroll);
+
 document.addEventListener('DOMContentLoaded', () => {
+  resetPageScroll();
+  const companyDocumentLink = document.querySelector('.company-document-link');
+  if (companyDocumentLink) {
+    companyDocumentLink.addEventListener('click', event => {
+      event.preventDefault();
+      const pdfPath = companyDocumentLink.getAttribute('href').split('#')[0].split('?')[0];
+      const pdfUrl = `${pdfPath}?open=${Date.now()}#page=1&view=FitH`;
+      window.open(pdfUrl, '_blank', 'noopener');
+    });
+  }
+
   const revealElements = document.querySelectorAll('.reveal');
   
   const revealOptions = {
@@ -45,7 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
       audienceMessages: [
         {
           label: "入社後のステップ",
-          text: "まずは先輩の同行から始め、お客様の話を聞く力や提案の流れを一つずつ身につけていけます。"
+          steps: ["基礎知識研修", "先輩同行", "OJT", "ひとり立ち"],
+          text: "商品知識やお客様への提案方法を、段階を踏みながら身につけていきます。"
         },
         {
           label: "お客様対応の経験を活かしたい方へ",
@@ -113,12 +137,13 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 2,
       title: 'システムエンジニア（通信インフラ工事・設定サポート）',
       tags: ['新卒・第二新卒歓迎', '中途採用', '正社員', '秋田市', '土日祝休み'],
-      summary: '通信インフラの設置工事からネットワーク機器・クラウドPBXの設定、導入後サポートまで担当します。',
+      summary: '通信インフラエンジニアに関わる設定・工事全般を担当します。',
       impact: String.fromCharCode(0x898B,0x3048,0x306A,0x3044,0x901A,0x4FE1,0x3092,0x3001,0x983C,0x308C,0x308B,0x6280,0x8853,0x306B,0x3002),
       audienceMessages: [
         {
           label: "入社後のステップ",
-          text: "通信インフラの基礎から学び、先輩と一緒に設置工事・設定・サポートを経験しながら力をつけていけます。"
+          steps: ["基礎知識研修", "先輩同行", "OJT", "ひとり立ち"],
+          text: "通信インフラの設置工事・設定・サポートを、段階を踏みながら身につけていきます。"
         },
         {
           label: "現場経験を活かしたい方へ",
@@ -173,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 3,
       title: '技術職（通信インフラ工事・保守）',
-      tags: ['中途採用', '正社員', '秋田市', '経験者採用', '第二種電気工事士必須', '土日祝休み'],
+      tags: ['中途採用', '正社員', '秋田市', '経験者採用', '第二種電気工事士必須', '工事担任者必須', '土日祝休み'],
       summary: '&#x30D3;&#x30B8;&#x30CD;&#x30B9;&#x30D5;&#x30A9;&#x30F3;&#x3001;Wi-Fi&#x3001;&#x9632;&#x72AF;&#x30AB;&#x30E1;&#x30E9;&#x306A;&#x3069;&#x306E;&#x8A2D;&#x7F6E;&#x30FB;&#x914D;&#x7DDA;&#x30FB;&#x4FDD;&#x5B88;&#x3092;&#x62C5;&#x5F53;&#x3057;&#x307E;&#x3059;&#x3002;&#x7D4C;&#x9A13;&#x3084;&#x8CC7;&#x683C;&#x3092;&#x8A55;&#x4FA1;&#x3057;&#x307E;&#x3059;&#x3002;',
       impact: String.fromCharCode(0x79CB,0x7530,0x306E,0x73FE,0x5834,0x3092,0x3001,0x6280,0x8853,0x3067,0x652F,0x3048,0x308B,0x3002),
       audienceMessages: [
@@ -196,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="job-point-box">
           <strong class="job-point-heading">この仕事のポイント</strong>
           <ul class="job-point-list">
-            <li style="margin-bottom: 8px;"><strong>資格・経験を活かせる</strong> 第二種電気工事士の資格と実務経験を活かし、通信工事や保守の現場で経験を広げられます。</li>
+            <li style="margin-bottom: 8px;"><strong>資格・経験を活かせる</strong> 第二種電気工事士・工事担任者の資格と実務経験を活かし、通信工事や保守の現場で経験を広げられます。</li>
             <li style="margin-bottom: 8px;"><strong>現場改善まで関われる</strong> 設置して終わりではなく、お客様が使いやすい環境づくりまで考えられます。</li>
             <li style="margin-bottom: 8px;"><strong>技術部門の中核へ</strong> 現場対応に加え、後輩育成や品質向上にも力を発揮できます。</li>
             <li><strong>地域に貢献できる仕事</strong> 通信・オフィス環境を支え、還元型通信サービス「<span class="no-break">コネクト光</span>」を通じて地域支援にもつながります。</li>
@@ -214,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '普通自動車運転免許（AT限定可）をお持ちの方',
         '通信回線工事、ビジネスフォン設置、LAN配線工事、OA機器の設置・設定などの実務経験がある方',
         '第二種電気工事士の資格をお持ちの方',
-        '工事担任者（総合通信など）の資格をお持ちの方歓迎',
+        '工事担任者（総合通信など）の資格をお持ちの方',
         '現場状況を見ながら、丁寧で確実な作業を進められる方',
         'お客様の使いやすさまで考え、誠実に対応できる方',
         'ハローワークでお仕事探し中の方も歓迎'
@@ -366,6 +391,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (recruitMode === 'college' && req === '新卒（来春卒業予定）・第二新卒・中途の方を歓迎') {
           return '専門学校・短大を卒業予定の方、第二新卒の方';
         }
+        if ((recruitMode === 'highschool' || recruitMode === 'college') && req.includes('新卒者は入社後取得でOK')) {
+          return '普通自動車運転免許（AT限定可）をお持ちの方 ※誕生日の都合で取得が遅れる場合、ご相談ください。';
+        }
         if (recruitMode === 'career' && req.includes('新卒者は入社後取得でOK')) {
           return '普通自動車運転免許（AT限定可）をお持ちの方';
         }
@@ -428,10 +456,15 @@ document.addEventListener('DOMContentLoaded', () => {
         return job.audienceMessages;
       })();
       const audienceHtml = audienceMessages ? `
-        <div class="job-audience-messages">
+        <div class="job-audience-messages${audienceMessages.length === 1 ? ' is-single' : ''}">
           ${audienceMessages.map(message => `
             <div class="job-audience-message">
               <strong>${message.label}</strong>
+              ${message.steps ? `
+                <div class="job-step-flow" aria-label="${message.steps.join('、')}">
+                  ${message.steps.map(step => `<span>${step}</span>`).join('')}
+                </div>
+              ` : ''}
               <p>${message.text}</p>
             </div>
           `).join('')}
@@ -462,8 +495,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <h4>【給与・待遇詳細】</h4>
           <ul style="list-style-type: none; padding-left: 0; margin-bottom: 20px;">${detailHtml}</ul>
           <h4>【業務内容】</h4>
-          ${audienceHtml}
           <p>${job.description}</p>
+          ${audienceHtml}
           <h4>【求める人物・必須条件】</h4>
           <ul>${reqsHtml}</ul>
           <div style="margin-top: 25px; text-align: center;">
