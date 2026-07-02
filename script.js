@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const jobsContainer = document.getElementById('jobsContainer');
-  const contactUrl = 'https://connect-web.jp/contact';
+  const contactUrl = 'https://connect-web.jp/contact/';
 
   const entryModal = document.createElement('div');
   entryModal.className = 'entry-modal';
@@ -291,10 +291,10 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="entry-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="entryModalTitle">
       <button type="button" class="entry-modal-close" aria-label="閉じる" data-entry-modal-close>×</button>
       <p class="entry-modal-kicker">ENTRY CONFIRMATION</p>
-      <h3 id="entryModalTitle">応募職種の記入をお願いします</h3>
-      <p class="entry-modal-lead">次のフォームの「お問い合わせ内容」欄に、下記の職種名を記入してください。</p>
+      <h3 id="entryModalTitle">応募内容を自動入力します</h3>
+      <p class="entry-modal-lead">次のフォームでは「求人へ応募」が選択され、「お問い合わせ内容」欄に下記の応募内容が自動入力されます。</p>
       <div class="entry-modal-job" id="entryModalJob"></div>
-      <p class="entry-modal-example">記入例：採用応募／<span id="entryModalExample"></span>に応募希望</p>
+      <p class="entry-modal-example">入力内容：採用応募／<span id="entryModalExample"></span>に応募希望</p>
       <div class="entry-modal-actions">
         <button type="button" class="btn-outline" data-entry-modal-close>戻る</button>
         <a href="${contactUrl}" target="_blank" class="btn-primary" id="entryModalProceed">フォームへ進む</a>
@@ -311,7 +311,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function openEntryModal(jobTitle) {
     modalJob.textContent = jobTitle;
     modalExample.textContent = jobTitle;
-    modalProceed.href = `${contactUrl}?job=${encodeURIComponent(jobTitle)}`;
+    const params = new URLSearchParams({
+      type: 'recruit',
+      job: jobTitle
+    });
+    modalProceed.href = `${contactUrl}?${params.toString()}`;
     entryModal.classList.add('active');
     entryModal.setAttribute('aria-hidden', 'false');
     document.body.classList.add('modal-open');
@@ -530,7 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <ul>${reqsHtml}</ul>
           <div style="margin-top: 25px; text-align: center;">
             <button type="button" class="btn-primary btn-small entry-trigger">この職種にエントリー</button>
-            <p class="entry-note">フォーム移動前に、応募職種の記入案内を表示します。</p>
+            <p class="entry-note">フォームへ進むと、応募職種が自動入力されます。</p>
           </div>
         </div>
       `;
