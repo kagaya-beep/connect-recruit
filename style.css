@@ -1293,6 +1293,18 @@ nav ul li a:hover::after {
   color: var(--text-muted);
 }
 
+.analytics-note {
+  font-size: 0.78rem;
+  line-height: 1.75;
+  margin: 0 auto 16px;
+  max-width: 860px;
+}
+
+.analytics-note a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 
 .reveal {
   opacity: 0;

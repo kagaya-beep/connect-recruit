@@ -8,10 +8,39 @@ function resetPageScroll() {
   }
 }
 
+function trackAnalyticsEvent(eventName, parameters = {}) {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', eventName, parameters);
+  }
+}
+
 window.addEventListener('pageshow', resetPageScroll);
 
 document.addEventListener('DOMContentLoaded', () => {
   resetPageScroll();
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link) return;
+
+    if (link.classList.contains('track-card-link')) {
+      trackAnalyticsEvent('recruit_category_click', {
+        category_name: link.closest('.recruit-track-card')?.querySelector('h3')?.textContent.trim() || '',
+        link_url: link.href
+      });
+    }
+
+    if (link.classList.contains('company-document-link')) {
+      trackAnalyticsEvent('company_document_view', { document_name: '会社紹介・採用資料' });
+    }
+
+    if (link.href.startsWith('https://connect-web.jp/contact')) {
+      trackAnalyticsEvent(link.id === 'entryModalProceed' ? 'entry_form_click' : 'consultation_click', {
+        job_name: link.id === 'entryModalProceed' ? document.querySelector('#entryModalJob')?.textContent.trim() || '' : '',
+        link_text: link.textContent.trim()
+      });
+    }
+  });
+
   const companyDocumentLink = document.querySelector('.company-document-link');
   if (companyDocumentLink) {
     companyDocumentLink.addEventListener('click', event => {
@@ -518,6 +547,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!isActive) {
           jobItem.classList.add('active');
+          trackAnalyticsEvent('job_detail_open', {
+            job_id: String(job.id),
+            job_name: displayTitle,
+            recruit_type: recruitMode
+          });
           requestAnimationFrame(() => scrollToJobStart(jobItem));
           setTimeout(() => scrollToJobStart(jobItem), 520);
         }
@@ -526,6 +560,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const entryTrigger = jobItem.querySelector('.entry-trigger');
       entryTrigger.addEventListener('click', event => {
         event.stopPropagation();
+        trackAnalyticsEvent('entry_modal_open', {
+          job_id: String(job.id),
+          job_name: displayTitle,
+          recruit_type: recruitMode
+        });
         openEntryModal(displayTitle);
       });
     });
