@@ -165,6 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       id: 2,
       title: 'システムエンジニア（通信インフラ工事・設定サポート）',
+      acceptingApplications: false,
       tags: ['新卒・第二新卒歓迎', '中途採用', '正社員', '秋田市', '土日祝休み'],
       summary: '通信インフラエンジニアに関わる設定・工事全般を担当します。',
       impact: String.fromCharCode(0x898B,0x3048,0x306A,0x3044,0x901A,0x4FE1,0x3092,0x3001,0x983C,0x308C,0x308B,0x6280,0x8853,0x306B,0x3002),
@@ -357,7 +358,8 @@ document.addEventListener('DOMContentLoaded', () => {
       .map(id => Number(id.trim()))
       .filter(Boolean);
     const recruitMode = jobsContainer.dataset.recruitMode || 'all';
-    const visibleJobs = jobIds.length ? jobsData.filter(job => jobIds.includes(job.id)) : jobsData;
+    const visibleJobs = (jobIds.length ? jobsData.filter(job => jobIds.includes(job.id)) : jobsData)
+      .filter(job => job.acceptingApplications !== false);
     
     visibleJobs.forEach(job => {
       const jobItem = document.createElement('div');
